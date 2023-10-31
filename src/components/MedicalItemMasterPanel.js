@@ -122,7 +122,7 @@ class MedicalItemMasterPanel extends FormPanel {
           <Grid item xs={4} className={classes.item}>
             <PublishedComponent
               pubRef="medical.CareTypePicker"
-              withNull={true}
+              withNull={false}
               required
               readOnly={Boolean(edited.id) || readOnly}
               value={edited ? edited.careType : ""}

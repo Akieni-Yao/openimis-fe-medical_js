@@ -126,7 +126,7 @@ class MedicalItemFilter extends Component {
                   <PublishedComponent
                     pubRef="medical.ItemTypePicker"
                     module="medical"
-                    //label="ItemType"
+                    label="ItemType"
                     value={this.filterValue("type")}
                     withNull={true}
                     nullLabel="medical.itemType.any"
